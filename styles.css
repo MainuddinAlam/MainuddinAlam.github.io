@@ -1,0 +1,68 @@
+/*
+Css for my portfolio page
+*/
+:root {
+  --mainColor : #ffd700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    line-height: 1.8;
+}
+
+header {
+    background-color: #000;
+    color: var(--mainColor);
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4em;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    background-color: var(--sectionBgColor);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--mainColor);
+    border-bottom: 2px solid var(--mainColor);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 25px;
+}
+
+a {
+    color: var(--mainColor);
+}
+
+a:hover {
+    color: greenyellow;
+}
